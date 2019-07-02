@@ -1,0 +1,32 @@
+#edit-infos{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#edit-infos ul{
+    list-style: none;
+}
+#edit-infos ul{
+    list-style: none;
+}
+.container-info{
+    margin: 20px 10px 60px 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.3);
+}
+.input-itens{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input-item{
+    width: 500px;
+}
+#edit-infos select{
+    margin: 20px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    font-size: 16px;
+}

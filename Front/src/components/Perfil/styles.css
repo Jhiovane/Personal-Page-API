@@ -1,0 +1,86 @@
+#perfil {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    font-family: "Open Sans", Arial, sans-serif;
+    justify-content: space-around;
+    margin: 30px;
+    font-size: 16px;
+}
+#perfil a{
+    text-decoration: none;
+}
+.delete{
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    background: black;
+    color: #fff;
+    width: auto;
+    height: 25px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#perfil .description .interest ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#perfil .description .interest li{
+    margin-top: 15px; 
+
+}
+.des{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.des h4{
+    margin-left: 20px;
+}
+.icon{
+    background-size: contain;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+.interesting{
+    background-image: url("../../assets/inters.png");
+}
+.local{
+    background-image: url("../../assets/location.png");
+}
+.home{
+    background-image: url("../../assets/icons8-home-page-filled-100.png");
+}
+.study{
+    background-image: url("../../assets/university.png");
+}
+.perfil.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+#image-perfil{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), 
+    inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+}
+.bt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

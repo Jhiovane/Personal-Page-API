@@ -1,0 +1,12 @@
+body {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0%;
+
+}
+h4,p{
+  color: black;
+}
+  
